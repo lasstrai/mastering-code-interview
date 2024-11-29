@@ -1,7 +1,7 @@
 // Can place flowers
 package main
 
-func canPlaceDlowers(flowerbed []int, n int) bool {
+func canPlaceFlowers(flowerbed []int, n int) bool {
 	for i := 0; i < len(flowerbed); i++{
 		// In case task is complete before reaching the end of the array
 		if n == 0 {
